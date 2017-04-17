@@ -105,4 +105,4 @@ export WAN_IP=149.154.71.205
 # Записываем правила
 /sbin/iptables-save  > /etc/sysconfig/iptables" > /etc/iptables_rules.sh && chmod 0740 /etc/iptables_rules.sh
 echo "Применим базовые правила iptables"
-
+/etc/iptables_rules.sh
